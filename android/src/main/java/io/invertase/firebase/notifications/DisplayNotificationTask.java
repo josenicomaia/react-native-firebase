@@ -471,12 +471,22 @@ public class DisplayNotificationTask extends AsyncTask<Void, Void, Void> {
     }
 
     String notificationId = notification.getString("notificationId");
-    return PendingIntent.getActivity(
-      context,
-      notificationId.hashCode(),
-      intent,
-      PendingIntent.FLAG_UPDATE_CURRENT
-    );
+
+    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
+      return PendingIntent.getActivity(
+        context,
+        notificationId.hashCode(),
+        intent,
+        PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT
+      );
+    } else {
+      return PendingIntent.getActivity(
+        context,
+        notificationId.hashCode(),
+        intent,
+        PendingIntent.FLAG_UPDATE_CURRENT
+      );
+    }
   }
 
   private PendingIntent createBroadcastIntent(Context context, Bundle notification, String action) {
