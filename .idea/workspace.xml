@@ -1,257 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f03f295-5fd1-4c70-9029-613da87dca6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circleci/scripts/packager-warmup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circleci/scripts/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circleci/scripts/wait-for-avd.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/Bug_report.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/Feature_request.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/Support_us.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/potential-duplicates.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/reaction.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/stale.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.opensource/project.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecov.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/NativeError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/commonTypes.flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/AdMobComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/AdRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/Banner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/EventTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/Interstitial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/NativeExpress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/RewardedVideo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/VideoOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admob/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/analytics/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/AuthSettings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/phone/ConfirmationResult.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/phone/PhoneAuthListener.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/AppleAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/EmailAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/FacebookAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/GithubAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/GoogleAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/OAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/PhoneAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/providers/TwitterAuthProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/firebase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/crashlytics/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/database/DataSnapshot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/database/OnDisconnect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/database/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/database/Reference.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/database/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/database/transaction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/Blob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/CollectionReference.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/DocumentChange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/DocumentReference.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/DocumentSnapshot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/FieldPath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/FieldValue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/GeoPoint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/Path.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/QuerySnapshot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/SnapshotError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/Timestamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/Transaction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/TransactionHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/WriteBatch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/firestoreTypes.flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/utils/any.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/firestore/utils/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/functions/HttpsError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/functions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/functions/types.flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/iid/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/AnalyticsParameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/AndroidParameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/DynamicLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/IOSParameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/ITunesParameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/NavigationParameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/SocialParameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/links/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/messaging/IOSMessaging.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/messaging/RemoteMessage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/messaging/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/messaging/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/AndroidAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/AndroidChannel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/AndroidChannelGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/AndroidNotification.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/AndroidNotifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/AndroidRemoteInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/IOSNotification.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/IOSNotifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/Notification.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/notifications/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/perf/HttpMetric.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/perf/Trace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/perf/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/storage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/storage/reference.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/storage/task.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/utils/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ModuleBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ReferenceBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/SyncTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/apps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/internals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/log.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.buckconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/keystore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/androidTest/java/com/invertase/testing/DetoxTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/java/com/invertase/testing/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/java/com/invertase/testing/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/keystores/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/keystores/debug.keystore.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/app.admob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/analytics/analytics.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/auth/auth.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/auth/emailLink.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/auth/phone.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/auth/provider.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/auth/rnReload.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/auth/user.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/config/config.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/core/core.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/crashlytics/crashlytics.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/issueSpecific.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/child.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/factory.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/isEqual.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/key.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/on.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/once.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/parent.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/priority.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/push.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/query.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/set.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/ref/transactions.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/rnReload.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/database/snapshot.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/batch.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/blob.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/collection/cursors.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/collection/dates.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/collection/limit.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/collection/snapshot.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/collection/where.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/collectionReference.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/documentReference.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/documentSnapshot.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/fieldPath.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/fieldValue.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/firestore.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/path.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/query.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/timestamp.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/firestore/transactions.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/functions/functions.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/iid/iid.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/jet.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/messaging/messaging.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/mocha.ci.opts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/mocha.opts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/notifications/android/NotificationChannel.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/notifications/android/NotificationChannelGroup.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/notifications/ios.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/perf/httpMetric.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/perf/perf.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/perf/trace.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/storage/storage.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/flow-typed/firebase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/database/content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/database/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/firestore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/index.android.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/Podfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing.xcodeproj/xcshareddata/xcschemes/testing Release.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing.xcodeproj/xcshareddata/xcschemes/testing.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/Base.lproj/LaunchScreen.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testing/testing.entitlements" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testingTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ios/testingTests/exampleTests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/manual-patches/detox+9.1.2-no-extract.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/manual-patches/detox+9.1.2.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/metro.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/patches/detox+9.1.2.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/yarn.lock" beforeDir="false" />
+    <list default="true" id="0f03f295-5fd1-4c70-9029-613da87dca6f" name="Changes" comment="fix: making compatible for android 11+">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/io/invertase/firebase/notifications/DisplayNotificationTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/io/invertase/firebase/notifications/DisplayNotificationTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,8 +43,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665115533118</updated>
-      <workItem from="1665115534366" duration="2607000" />
+      <workItem from="1665115534366" duration="4527000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: making compatible for android 11+">
+      <created>1665118868946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665118868946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: making compatible for android 11+" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: making compatible for android 11+" />
   </component>
 </project>
